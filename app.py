@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 
 
-intents = json.loads(open( 'intents_copy.json' , encoding="utf8").read())
+intents = json.loads(open( 'intents_copy.json').read())
 
 
 app.static_folder ='static'
