@@ -18,7 +18,7 @@ from tensorflow import keras
 lemmatizer = WordNetLemmatizer()
 
 #intents = json.loads(open('intents_.json').read())
-intents = json.loads(open('intents_copy.json', encoding="utf8").read())
+intents = json.loads(open('intents_copy.json').read())
 
 Words = []
 classes = []
